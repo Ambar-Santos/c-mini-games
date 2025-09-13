@@ -4,6 +4,7 @@
 // input and store it in a variable
 
 #include <stdio.h>
+#include <string.h>
 
 
 int main(){
