@@ -15,7 +15,10 @@ float height;
 
 
 printf("What's your name?: ");
-  fgets("%s", name); //arrays already behave like pointers so no &
+   fgets(name, sizeof(name), stdin);  
+
+    // removes the newline that fgets stores when you press Enter
+    name[strcspn(name, "\n")] = '\0';
 
 printf("What is your favorite number of them all?: ");
   scanf("%d", &favorite_number);
