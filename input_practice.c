@@ -15,7 +15,7 @@ float height;
 
 
 printf("What's your name?: ");
-  scanf("%s", name); //arrays already behave like pointers so no &
+  fgets("%s", name); //arrays already behave like pointers so no &
 
 printf("What is your favorite number of them all?: ");
   scanf("%d", &favorite_number);
