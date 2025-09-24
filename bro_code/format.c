@@ -17,6 +17,11 @@ char name[] = "Ambi";
 
 printf("%d\n", age);
 printf("%f\n", price);
+printf("%lf\n", pi); //Better to use lf in doubles
+printf("%c\n", currency);
+printf("%s\n", name);
+
+
 
     return 0;
 }
