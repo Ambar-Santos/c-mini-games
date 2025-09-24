@@ -25,10 +25,10 @@ int main(){
    
 //Variables
 
-int sanity_level 0;
+int sanity_levels = 0;
 
 printf("========================== Sanity Checker =========================\n");
-printf("-----In a scale of 1-100 what is your sanity level like right now-----\n")
+printf("-----In a scale of 1-100 what is your sanity level like right now-----\n");
 scanf(scanf("%d", &sanity_levels););
 
   
@@ -45,8 +45,6 @@ if(sanity_levels >= 80){
 
 
 printf("====================================================================\n");
-
-
 
 
     return 0;
