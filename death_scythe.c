@@ -43,7 +43,7 @@ int main(){
 
      } 
 
-     if (has_witch_soul ==0){
+     if (witch_soul ==0){
         printf("You mus acquire a Witch's Soul.\n");
 
      }
