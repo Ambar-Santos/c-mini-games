@@ -11,7 +11,7 @@ int main(){
         
     }
 
- printf("Finally! The tedium is over!\n");
+     printf("Finally! The tedium is over!\n");
 
     return 0;
 }
