@@ -39,7 +39,7 @@ int main(){
 
      if(kishin_eggs < 99){
 
-        printf("You need %d more Kishing Egg(s).\n",  99 - kishing_eggs);
+        printf("You need %d more Kishing Egg(s).\n",  99 - kishin_eggs);
 
      } 
 
