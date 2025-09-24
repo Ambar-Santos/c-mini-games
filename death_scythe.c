@@ -14,18 +14,18 @@ int main(){
     //Soul Data 
 
     int kishin_eggs = 0;
-    int witch_souls = 0;
+    int witch_soul = 0;
 
    printf("================= Death Scythe Protocol =====================");
     printf("How many Kishin Egss have you collected: \n");
-      scanf("%d", &kishing_eggs);
+      scanf("%d", &kishin_eggs);
 
      
     printf("How many Witch Souls have you collected: \n");
       scanf("%d", &witch_soul);
 
 
-    if (kishin_eggs =>99 && witch_soul == 1){ 
+    if (kishin_eggs >=99 && witch_soul == 1){ 
         // This code runs ONLY if BOTH conditions are TRUE
         printf("\n*** RESONANCE SUCCESS! ***\n");
         printf("The soul wavelength is perfect!\n");
@@ -44,11 +44,11 @@ int main(){
      } 
 
      if (witch_soul ==0){
-        printf("You mus acquire a Witch's Soul.\n");
+        printf("You must acquire a Witch's Soul.\n");
 
      }
 
-     printf("Continue your training!!")
+     printf("Continue your training!!");
      
 
     }
