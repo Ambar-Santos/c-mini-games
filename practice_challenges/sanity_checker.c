@@ -35,9 +35,9 @@ scanf("%d", &sanity_levels);
   
 if(sanity_levels >= 80){
   printf("A sound soul is in a sound mind and a sound body, indeed! \n");
-} else if (sanity_levels >= 50 && sanity_levels <= 79){
+} else if (sanity_levels >= 50 ){
   printf("You show signs of strain. Meditate with your weapon.\n");
-}else if (sanity_levels >= 25 && sanity_levels <= 49){
+}else if (sanity_levels >= 25){
   printf("Madness is approaching! Report to Lord Death immediately!\n");
 }else{
     printf("KISHIN ALERT! CONTAINMENT PROTOCOLS ACTIVATED!\n");
