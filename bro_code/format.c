@@ -15,8 +15,8 @@ double pi = 3.1415926535;
 char currency = '$';
 char name[] = "Ambi";
 
-printf("%d\n", age);
-printf("%f\n", price);
+printf("%5d\n", age);
+printf("%.1f\n", price);//Precision . + digits to display
 printf("%lf\n", pi); //Better to use lf in doubles
 printf("%c\n", currency);
 printf("%s\n", name);
