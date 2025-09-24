@@ -21,10 +21,10 @@ int main (){
 
     printf("%d\n", z);
 
-    z = x * y;
+    z = x * y; 
 
     printf("%d\n", z);
 
-
+  
 
 }
