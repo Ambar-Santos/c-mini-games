@@ -16,7 +16,7 @@ int main(){
     int kishin_eggs = 0;
     int witch_soul = 0;
 
-   printf("================= Death Scythe Protocol =====================");
+   printf("================= Death Scythe Protocol =====================\n");
     printf("How many Kishin Egss have you collected: \n");
       scanf("%d", &kishin_eggs);
 
