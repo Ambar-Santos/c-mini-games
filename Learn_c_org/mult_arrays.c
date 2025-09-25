@@ -13,9 +13,6 @@
             
     */
     
-    
-    
-    
     #include <stdio.h>
 
 	int main() {
@@ -49,6 +46,6 @@
 
             printf("The average marks obtained in subject %d is: %.2f\n", i, average);
 		
-
+        }
 		return 0;
 	}
