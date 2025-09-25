@@ -20,7 +20,7 @@
 
 	int main() {
 		/* TODO: declare the 2D array grades here */
-        int grades[1][4];
+        int grades[2][5];
 		float average;
 		int i;
 		int j;
@@ -45,13 +45,10 @@
 			}
 
 			/* TODO: compute the average marks for subject i */
-            average = average / 5;
+            average = average / 5.0;
 
             printf("The average marks obtained in subject %d is: %.2f\n", i, average);
-		}for (j = 0; j < 5 ; j++) {
-				average += grades[i][j];
-			}
-
+		
 
 		return 0;
 	}
