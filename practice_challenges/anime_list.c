@@ -4,7 +4,7 @@
 
 int main(){
 
-    FILE *notebook = fopen("anime_list.txt", "w");
+    FILE *notebook = fopen("anime_list.txt", "a");
 
     fprintf(notebook, "Soul Eater\n");
     fprintf(notebook, "Fire Force\n");
